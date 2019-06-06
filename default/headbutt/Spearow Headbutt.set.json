@@ -1,0 +1,51 @@
+{
+    "id": "Spearow Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Spearow",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 6,
+            "maxLevel": 14,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes" : [
+                    "hills"
+                ]
+			},
+            "rarity": 120.0
+        },
+		{
+            "spec": {
+                "name": "Spearow"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 6,
+            "maxLevel": 14,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes" : [
+                    "hills"
+                ]
+			},
+            "rarity": 120.0
+        }
+    ]
+}

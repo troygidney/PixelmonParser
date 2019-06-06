@@ -1,0 +1,26 @@
+{
+	"id": "Rotom",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Rotom"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 13,
+			"maxLevel": 27,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"MIDNIGHT"
+				],
+				"stringBiomes": [
+					"roofed_forest",
+					"mutated_roofed_forest"
+				]
+			},
+			"rarity": 10.0
+		}
+	]
+}

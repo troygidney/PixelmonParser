@@ -1,0 +1,27 @@
+{
+	"id": "Tsareena",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Tsareena"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 35,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"birches",
+					"flowery"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

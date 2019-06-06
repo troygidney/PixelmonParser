@@ -1,0 +1,121 @@
+{
+    "id": "Ledyba Line Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Ledyba",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 7,
+            "maxLevel": 18,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"variant" : [
+                    "birch",
+					"oak"
+                ],
+				"stringBiomes": [
+					"forests",
+					"birches",
+					"flowery"
+				]
+            },
+            "rarity": 80.0
+        },
+		{
+            "spec": {
+                "name": "Ledyba"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 7,
+            "maxLevel": 18,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"variant" : [
+                    "birch",
+					"oak"
+                ],
+				"stringBiomes": [
+					"forests",
+					"birches",
+					"flowery"
+				]
+            },
+            "rarity": 80.0
+        },
+		{
+            "spec": {
+                "name": "Ledian",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 21,
+            "maxLevel": 32,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"variant" : [
+                    "birch",
+					"oak"
+                ],
+				"stringBiomes": [
+					"forests",
+					"birches",
+					"flowery"
+				]
+            },
+            "rarity": 40.0
+        },
+		{
+            "spec": {
+                "name": "Ledian"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 21,
+            "maxLevel": 32,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"variant" : [
+                    "birch",
+					"oak"
+                ],
+				"stringBiomes": [
+					"forests",
+					"birches",
+					"flowery"
+				]
+            },
+            "rarity": 40.0
+        }
+    ]
+}

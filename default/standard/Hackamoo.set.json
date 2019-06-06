@@ -1,0 +1,32 @@
+{
+	"id": "Hackamoo",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Hakamo-o"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 35,
+			"maxLevel": 44,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:razor_claw",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"AFTERNOON"
+				],
+				"stringBiomes": [
+					"mountainous"
+				],
+				"minY": 100
+			},
+			"rarity": 15.0
+		}
+	]
+}

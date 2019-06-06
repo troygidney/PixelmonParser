@@ -1,0 +1,28 @@
+{
+	"id": "Ampharos",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Ampharos"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"minecraft:plains",
+					"grassland",
+					"prairie",
+					"ice_flats"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

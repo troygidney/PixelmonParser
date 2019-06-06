@@ -1,0 +1,62 @@
+{
+	"id": "Sandslash",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Sandslash",
+				"form": 0
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 22,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:grip_claw",
+                    "percentChance": 5
+                } 
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"arid",
+					"mesas"
+				]
+			},
+			"rarity": 25.0
+		},
+		{
+			"spec": {
+				"name": "Sandslash",
+				"form": 1
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 22,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:grip_claw",
+                    "percentChance": 5
+                } 
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"freezing mountains",
+					"ice_flats",
+					"mutated_ice_flats"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "Meganium",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Meganium"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 32,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+			    "times": [
+					"AFTERNOON"
+				],
+				"stringBiomes": [
+					"flowery",
+					"meadow"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

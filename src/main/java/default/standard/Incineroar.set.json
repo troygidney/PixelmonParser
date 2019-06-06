@@ -1,0 +1,27 @@
+{
+	"id": "Incineroar",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Incineroar"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top"
+			],
+			"minLevel": 34,
+			"maxLevel": 55,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"jungle_hills",
+					"mutated_jungle"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

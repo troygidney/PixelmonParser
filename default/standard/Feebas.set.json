@@ -1,0 +1,29 @@
+{
+	"id": "Feebas",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Feebas"
+			},
+			"stringLocationTypes": [
+				"Water",
+				"Underground Water"
+			],
+			"minLevel": 10,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"swampland",
+					"wetland",
+					"marsh",
+					"lush_swamp"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

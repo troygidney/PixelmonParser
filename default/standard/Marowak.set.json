@@ -1,0 +1,63 @@
+{
+	"id": "Marowak",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Marowak",
+				"form": 0
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 28,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:thick_club",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DUSK",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"mutated_mesa",
+					"desert_hills",
+					"xeric_shrubland",
+					"mountainous_desert"
+				]
+			},
+			"rarity": 25.0
+		},
+		{
+			"spec": {
+				"name": "Marowak",
+				"form": 1
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 28,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:thick_club",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"mesa_rock"
+				]
+			},
+			"rarity": 1.0
+		}
+	]
+}

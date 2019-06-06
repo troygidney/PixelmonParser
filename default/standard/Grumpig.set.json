@@ -1,0 +1,26 @@
+{
+	"id": "Grumpig",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Grumpig"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 35,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"AFTERNOON"
+				],
+				"stringBiomes": [
+					"mutated_taiga",
+					"rw_spruce_mountains"
+				]
+			},
+			"rarity": 15.0
+		}
+	]
+}

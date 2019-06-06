@@ -1,0 +1,26 @@
+{
+	"id": "MrMime Grass",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "MrMime"
+			},
+			"stringLocationTypes": [
+				"Grass"
+			],
+			"minLevel": 20,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"forests",
+					"birches"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

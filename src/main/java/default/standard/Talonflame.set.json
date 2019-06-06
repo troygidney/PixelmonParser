@@ -1,0 +1,26 @@
+{
+	"id": "Talonflame",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Talonflame"
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"minLevel": 36,
+			"maxLevel": 49,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"birches",
+					"freezing forests"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

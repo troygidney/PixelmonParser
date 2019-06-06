@@ -1,0 +1,203 @@
+{
+    "id": "Weedle Line Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Weedle",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 3,
+            "maxLevel": 12,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes": [
+					"birches",
+					"flowery",
+					"forests",
+					"taigas"
+				],
+				"variant" : [
+                    "oak",
+					"ebony",
+					"ethereal",
+					"willow",
+					"palm"
+                ]
+			},
+            "rarity": 100.0
+        },
+		{
+            "spec": {
+                "name": "Weedle"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 3,
+            "maxLevel": 12,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes": [
+					"birches",
+					"flowery",
+					"forests",
+					"taigas"
+				],
+				"variant" : [
+                    "oak",
+					"ebony",
+					"ethereal",
+					"willow",
+					"palm"
+                ]
+			},
+            "rarity": 100.0
+        },
+        {
+            "spec": {
+                "name": "Kakuna",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 10,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes": [
+					"birches",
+					"flowery",
+					"forests",
+					"taigas"
+				],
+				"variant" : [
+                    "oak",
+					"ebony",
+					"ethereal",
+					"willow",
+					"palm"
+                ]
+			},
+            "rarity": 75.0
+        },
+		{
+            "spec": {
+                "name": "Kakuna"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 10,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes": [
+					"birches",
+					"flowery",
+					"forests",
+					"taigas"
+				],
+				"variant" : [
+                    "oak",
+					"ebony",
+					"ethereal",
+					"willow",
+					"palm"
+                ]
+			},
+            "rarity": 75.0
+        },
+        {
+            "spec": {
+                "name": "Beedrill",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 18,
+            "maxLevel": 27,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes": [
+					"birches",
+					"flowery",
+					"forests",
+					"taigas"
+				],
+				"variant" : [
+                    "oak",
+					"ebony",
+					"ethereal",
+					"willow",
+					"palm"
+                ]
+			},
+            "rarity": 30.0
+        },
+		{
+            "spec": {
+                "name": "Beedrill"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 18,
+            "maxLevel": 27,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes": [
+					"birches",
+					"flowery",
+					"forests",
+					"taigas"
+				],
+				"variant" : [
+                    "oak",
+					"ebony",
+					"ethereal",
+					"willow",
+					"palm"
+                ]
+			},
+            "rarity": 30.0
+        }
+    ]
+}

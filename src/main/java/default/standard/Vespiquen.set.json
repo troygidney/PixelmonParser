@@ -1,0 +1,32 @@
+{
+	"id": "Vespiquen",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Vespiquen"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 26,
+			"maxLevel": 44,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:poison_barb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAWN",
+					"DAY"
+				],
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "Magby",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Magby"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 10,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"nether"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

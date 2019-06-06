@@ -1,0 +1,37 @@
+{
+	"id": "Amoonguss",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Amoonguss"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 40,
+			"maxLevel": 55,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:big_mushroom",
+                    "percentChance": 5
+                },
+				{
+					"itemID": "pixelmon:tiny_mushroom",
+					"percentChance": 50
+				}
+            ],
+			"condition": {
+				"times": [
+					"NIGHT",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"all forests",
+					"mushroom"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

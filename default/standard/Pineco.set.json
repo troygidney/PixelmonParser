@@ -1,0 +1,28 @@
+{
+	"id": "Pineco",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Pineco"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Headbutt"
+			],
+			"minLevel": 5,
+			"maxLevel": 30,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"taigas",
+					"redwoods"
+				]
+			},
+			"rarity": 100.0
+		}
+	]
+}

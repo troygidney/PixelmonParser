@@ -1,0 +1,25 @@
+{
+	"id": "Klefki Grass",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Klefki"
+			},
+			"stringLocationTypes": [
+				"Grass"
+			],
+			"minLevel": 42,
+			"maxLevel": 54,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"taigas"
+				]
+			},
+			"rarity": 50.0
+		}
+	]
+}

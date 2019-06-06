@@ -1,0 +1,34 @@
+{
+	"id": "Slowpoke",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Slowpoke"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Sweet Scent"
+			],
+			"minLevel": 15,
+			"maxLevel": 37,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:lagging_tail",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"AFTERNOON",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"river",
+					"beaches"
+				]
+			},
+			"rarity": 80.0
+		}
+	]
+}

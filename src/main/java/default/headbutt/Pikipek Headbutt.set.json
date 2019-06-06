@@ -1,0 +1,57 @@
+{
+    "id": "Pikipek Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Pikipek",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 3,
+            "maxLevel": 13,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"jungles"
+				],
+                "variant" : [
+                    "jungle"
+                ]
+			},
+            "rarity": 150.0
+        },
+		{
+            "spec": {
+                "name": "Pikipek"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 3,
+            "maxLevel": 13,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"jungles"
+				],
+                "variant" : [
+                    "jungle"
+                ]
+			},
+            "rarity": 150.0
+        }
+    ]
+}

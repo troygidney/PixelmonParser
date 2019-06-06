@@ -1,0 +1,29 @@
+{
+	"id": "Vaporeon",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Vaporeon"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 35,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"baseBlocks": [
+					"minecraft:beaches"
+				],
+				"stringBiomes": [
+					"minecraft:beaches",
+					"rw_bombona_beach"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

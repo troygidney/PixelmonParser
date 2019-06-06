@@ -1,0 +1,59 @@
+{
+    "id": "Pidgey Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Pidgey",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 5,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"forests"
+				],
+                "variant" : [
+                    "oak",
+					"dark oak"
+                ]
+			},
+            "rarity": 150.0
+        },
+		{
+            "spec": {
+                "name": "Pidgey"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 5,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"forests"
+				],
+                "variant" : [
+                    "oak",
+					"dark oak"
+                ]
+			},
+            "rarity": 150.0
+        }
+    ]
+}

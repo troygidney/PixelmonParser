@@ -1,0 +1,25 @@
+{
+	"id": "Lopunny",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Lopunny"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 28,
+			"maxLevel": 47,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"freezing forests"
+				]
+			},
+			"rarity": 15.0
+		}
+	]
+}

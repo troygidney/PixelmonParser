@@ -1,0 +1,78 @@
+{
+	"id": "Mawile",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Mawile"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 33,
+			"maxLevel": 46,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:iron_ball",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"mountainous"
+				]
+			},
+			"rarity": 15.0
+		},
+		{
+			"spec": {
+				"name": "Mawile"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 33,
+			"maxLevel": 46,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:iron_ball",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"freezing mountains"
+				]
+			},
+			"rarity": 5.0
+		},
+		{
+			"spec": {
+				"name": "Mawile"
+			},
+			"stringLocationTypes": [
+				"Underground"
+			],
+			"minLevel": 33,
+			"maxLevel": 46,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:iron_ball",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"maxY": 50
+			},
+			"rarity": 15.0
+		}
+	]
+}

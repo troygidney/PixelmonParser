@@ -1,0 +1,22 @@
+{
+    "id": "Nidoranfemale Sweet Scent",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Nidoranfemale"
+            },
+            "stringLocationTypes": [
+                "Sweet Scent"
+            ],
+            "minLevel": 5,
+            "maxLevel": 16,
+            "typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"savannas"
+				]
+			},
+            "rarity": 150.0
+        }
+    ]
+}

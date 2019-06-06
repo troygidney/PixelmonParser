@@ -1,0 +1,27 @@
+
+{
+	"id": "Froakie",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Froakie"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 16,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"MORNING"
+				],
+				"stringBiomes": [
+					"swamps"
+				]
+			},
+			"rarity": 10.0
+		}
+	]
+}

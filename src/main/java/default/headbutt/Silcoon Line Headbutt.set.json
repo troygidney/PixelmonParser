@@ -1,0 +1,117 @@
+{
+    "id": "Silcoon Line Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Silcoon",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 7,
+            "maxLevel": 10,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"variant" : [
+                    "birch",
+					"spruce",
+					"dark_oak"
+                ],
+				"stringBiomes": [
+					"all forests"
+				]
+            },
+            "rarity": 40.0
+        },
+		{
+            "spec": {
+                "name": "Silcoon"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 7,
+            "maxLevel": 10,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"variant" : [
+                    "birch",
+					"spruce",
+					"dark_oak"
+                ],
+				"stringBiomes": [
+					"all forests"
+				]
+            },
+            "rarity": 40.0
+        },
+		{
+            "spec": {
+                "name": "Beautifly",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 10,
+            "maxLevel": 12,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"variant" : [
+                    "birch"
+                ],
+				"stringBiomes": [
+					"birches",
+					"flowery",
+					"magical"
+				]
+            },
+            "rarity": 5.0
+        },
+		{
+            "spec": {
+                "name": "Beautifly"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 10,
+            "maxLevel": 12,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"variant" : [
+                    "birch"
+                ],
+				"stringBiomes": [
+					"birches",
+					"flowery",
+					"magical"
+				]
+            },
+            "rarity": 5.0
+        }
+    ]
+}

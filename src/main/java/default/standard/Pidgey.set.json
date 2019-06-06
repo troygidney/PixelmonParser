@@ -1,0 +1,26 @@
+{
+	"id": "Pidgey",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Pidgey"
+			},
+			"stringLocationTypes": [
+				"Tree Top",
+				"Headbutt"
+			],
+			"minLevel": 2,
+			"maxLevel": 16,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"forests"
+				]
+			},
+			"rarity": 200.0
+		}
+	]
+}

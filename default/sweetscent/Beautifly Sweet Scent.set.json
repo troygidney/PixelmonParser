@@ -1,0 +1,27 @@
+{
+    "id": "Beautifly Sweet Scent",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Beautifly"
+            },
+            "stringLocationTypes": [
+                "Sweet Scent"
+            ],
+            "minLevel": 13,
+            "maxLevel": 23,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"forests",
+					"birches",
+					"magical"
+				]
+			},
+            "rarity": 50.0
+        }
+    ]
+}

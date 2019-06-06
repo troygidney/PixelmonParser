@@ -1,0 +1,28 @@
+{
+	"id": "Corphish",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Corphish"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Rock Smash",
+				"Seafloor"
+			],
+			"minLevel": 5,
+			"maxLevel": 29,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"river",
+					"swamps"
+				]
+			},
+			"rarity": 150.0
+		}
+	]
+}

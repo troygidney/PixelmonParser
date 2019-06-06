@@ -1,0 +1,26 @@
+{
+	"id": "Ralts",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Ralts"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 19,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"birches"
+				]
+			},
+			"rarity": 75.0
+		}
+	]
+}

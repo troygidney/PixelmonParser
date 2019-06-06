@@ -1,0 +1,26 @@
+{
+	"id": "Starly",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Starly"
+			},
+			"stringLocationTypes": [
+				"Tree Top",
+				"Headbutt"
+			],
+			"minLevel": 5,
+			"maxLevel": 13,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"mountainous"
+				]
+			},
+			"rarity": 200.0
+		}
+	]
+}

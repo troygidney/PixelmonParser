@@ -1,0 +1,37 @@
+{
+	"id": "Seismitoad",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Seismitoad"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 37,
+			"maxLevel": 49,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"swamps",
+					"river"
+				]
+			},
+			"rarityMultipliers": [
+				{
+					"multiplier": 2,
+					"condition": {
+						"weathers": [
+							"RAIN"
+						]
+					}
+				}
+			],
+			"rarity": 5.0
+		}
+	]
+}

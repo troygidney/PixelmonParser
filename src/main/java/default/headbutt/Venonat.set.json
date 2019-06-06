@@ -1,0 +1,26 @@
+{
+	"id": "Venonat",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Venonat"
+			},
+			"stringLocationTypes": [
+				"Headbutt"
+			],
+			"minLevel": 10,
+			"maxLevel": 30,
+			"typeID": "pokemon",
+			"condition": {
+				"variant": [
+					"oak"
+				],
+				"stringBiomes": [
+					"swamps",
+					"jungles"
+				]
+			},
+			"rarity": 100.0
+		}
+	]
+}

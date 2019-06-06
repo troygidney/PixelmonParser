@@ -1,0 +1,26 @@
+{
+	"id": "Murkrow",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Murkrow"
+			},
+			"stringLocationTypes": [
+				"Tree Top"
+			],
+			"minLevel": 5,
+			"maxLevel": 29,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"all forests",
+					"swamps"
+				]
+			},
+			"rarity": 100.0
+		}
+	]
+}

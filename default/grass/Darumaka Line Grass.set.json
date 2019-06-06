@@ -1,0 +1,45 @@
+{
+	"id": "Darumaka Line Grass",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Darumaka"
+			},
+			"stringLocationTypes": [
+				"Grass"
+			],
+			"minLevel": 23,
+			"maxLevel": 34,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"AFTERNOON"
+				],
+				"stringBiomes": [
+					"desert_hills"
+				]
+			},
+			"rarity": 75.0
+		},
+		{
+			"spec": {
+				"name": "Darmanitan"
+			},
+			"stringLocationTypes": [
+				"Grass"
+			],
+			"minLevel": 36,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"AFTERNOON"
+				],
+				"stringBiomes": [
+					"desert_hills"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

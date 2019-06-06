@@ -1,0 +1,31 @@
+{
+    "id": "Spritzee Sweet Scent",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Spritzee"
+            },
+            "stringLocationTypes": [
+                "Sweet Scent"
+            ],
+            "minLevel": 2,
+            "maxLevel": 8,
+            "typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:satchet",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"birches"
+				]
+			},
+            "rarity": 40.0
+        }
+    ]
+}

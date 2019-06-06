@@ -1,0 +1,27 @@
+{
+	"id": "Hydreigon",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Hydreigon"
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"minLevel": 65,
+			"maxLevel": 71,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"MIDNIGHT"
+				],
+				"stringBiomes": [
+					"extreme_hills_with_trees",
+					"ultra_deep_sea"
+				],
+				"minY": 80
+			},
+			"rarity": 1.0
+		}
+	]
+}

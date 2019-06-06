@@ -1,0 +1,27 @@
+{
+	"id": "Riolu",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Riolu"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 30,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"extreme_hills_with_trees",
+					"mutated_extreme_hills_with_trees"
+				]
+			},
+			"rarity": 45.0
+		}
+	]
+}

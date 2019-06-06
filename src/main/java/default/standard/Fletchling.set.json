@@ -1,0 +1,27 @@
+{
+	"id": "Fletchling",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Fletchling"
+			},
+			"stringLocationTypes": [
+				"Tree Top",
+				"Headbutt"
+			],
+			"minLevel": 5,
+			"maxLevel": 16,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"birches",
+					"freezing forests"
+				]
+			},
+			"rarity": 200.0
+		}
+	]
+}

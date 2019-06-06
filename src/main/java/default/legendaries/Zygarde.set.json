@@ -1,0 +1,29 @@
+{
+	"id": "Zygarde",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Zygarde",
+				"level": 70
+			},
+			"stringLocationTypes": [
+			    "Land"
+			],
+			"tags": [
+				"legendary"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DUSK",
+					"DAWN"
+				],
+				"stringBiomes": [
+					"mutated_extreme_hills"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

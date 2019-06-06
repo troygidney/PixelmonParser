@@ -1,0 +1,27 @@
+{
+	"id": "Aipom",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Aipom"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top",
+				"Headbutt"
+			],
+			"minLevel": 5,
+			"maxLevel": 30,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"MORNING"
+				],
+				"stringBiomes": [
+					"jungles"
+				]
+			},
+			"rarity": 75.0
+		}
+	]
+}

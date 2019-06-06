@@ -1,0 +1,25 @@
+{
+	"id": "Dunsparce Sweet Scent",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Dunsparce"
+			},
+			"stringLocationTypes": [
+				"Sweet Scent"
+			],
+			"minLevel": 5,
+			"maxLevel": 15,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"arid"
+				]
+			},
+			"rarity": 80.0
+		}
+	]
+}

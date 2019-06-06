@@ -1,0 +1,28 @@
+{
+	"id": "Xurkitree",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Xurkitree"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"tags": [
+				"ultrabeast"
+			],
+			"minLevel": 60,
+			"maxLevel": 60,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"birches"
+				],
+				"dimensions": [
+					"72"
+				]
+			},
+			"rarity": 4.0
+		}
+	]
+}

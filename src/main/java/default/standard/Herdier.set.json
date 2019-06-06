@@ -1,0 +1,35 @@
+{
+	"id": "Herdier",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Herdier"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 17,
+			"maxLevel": 31,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"AFTERNOON"
+				],
+				"stringBiomes": [
+					"plains"
+				]
+			},
+			"rarityMultipliers": [
+                {
+                    "multiplier": 2,
+                    "condition": {
+                        "neededNearbyBlocks": [
+                            "minecraft:grass_path"
+                        ]
+                    }
+                }
+            ],
+			"rarity": 75.0
+		}
+	]
+}

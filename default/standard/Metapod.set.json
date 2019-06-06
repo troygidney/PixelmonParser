@@ -1,0 +1,31 @@
+{
+	"id": "Metapod",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Metapod"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Headbutt",
+				"Tree Top"
+			],
+			"minLevel": 7,
+			"maxLevel": 10,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"MORNING"
+				],
+				"stringBiomes": [
+					"forests",
+					"birches",
+					"flowery",
+					"jungles"
+				]
+			},
+			"rarity": 100.0
+		}
+	]
+}

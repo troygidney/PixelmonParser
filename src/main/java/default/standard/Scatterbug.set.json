@@ -1,0 +1,29 @@
+{
+	"id": "Scatterbug",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Scatterbug"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top",
+				"Headbutt"
+			],
+			"minLevel": 3,
+			"maxLevel": 8,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"birches",
+					"forests"
+				]
+			},
+			"rarity": 200.0
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "Whirlipede",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Whirlipede"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top"
+			],
+			"minLevel": 22,
+			"maxLevel": 29,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:poison_barb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"AFTERNOON",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"jungles"
+				]
+			},
+			"rarity": 50.0
+		}
+	]
+}

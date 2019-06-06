@@ -1,0 +1,61 @@
+{
+    "id": "Fletchling Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Fletchling",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 3,
+            "maxLevel": 16,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes" : [
+                    "birches",
+					"freezing forests"
+                ],
+				"variant" : [
+                    "birch",
+					"spruce"
+                ]
+			},
+            "rarity": 120.0
+        },
+		{
+            "spec": {
+                "name": "Fletchling"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 3,
+            "maxLevel": 16,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes" : [
+                    "birches",
+					"freezing forests"
+                ],
+				"variant" : [
+                    "birch",
+					"spruce"
+                ]
+			},
+            "rarity": 120.0
+        }
+    ]
+}

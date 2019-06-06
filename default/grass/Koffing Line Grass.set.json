@@ -1,0 +1,59 @@
+{
+	"id": "Koffing Line Grass",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Koffing"
+			},
+			"stringLocationTypes": [
+				"Grass"
+			],
+			"minLevel": 15,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:smoke_ball",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT",
+					"DAWN"
+				],
+				"stringBiomes": [
+					"swamps",
+					"visceral_heap"
+				]
+			},
+			"rarity": 100.0
+		},
+		{
+			"spec": {
+				"name": "Weezing"
+			},
+			"stringLocationTypes": [
+				"Grass"
+			],
+			"minLevel": 35,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:smoke_ball",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"swamps"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

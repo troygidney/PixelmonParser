@@ -1,0 +1,27 @@
+{
+	"id": "Litten",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Litten"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top"
+			],
+			"minLevel": 5,
+			"maxLevel": 16,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"jungle_hills",
+					"mutated_jungle"
+				]
+			},
+			"rarity": 10.0
+		}
+	]
+}

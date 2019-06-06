@@ -1,0 +1,25 @@
+{
+	"id": "Darmanitan",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Darmanitan"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 36,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"AFTERNOON"
+				],
+				"stringBiomes": [
+					"desert_hills"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

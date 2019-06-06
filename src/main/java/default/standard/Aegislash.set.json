@@ -1,0 +1,25 @@
+{
+	"id": "Aegislash",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Aegislash"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 50,
+			"maxLevel": 62,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"savannas"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

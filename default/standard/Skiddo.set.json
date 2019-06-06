@@ -1,0 +1,48 @@
+{
+    "id": "Skiddo",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Skiddo"
+            },
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 19,
+            "maxLevel": 31,
+            "typeID": "pokemon",
+            "condition": {
+                "times": [
+                    "MORNING"
+                ],
+                "stringBiomes": [
+                    "hills"
+                ]
+            },
+            "rarity": 100.0
+        },
+		{
+            "spec": {
+                "name": "Skiddo"
+            },
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 19,
+            "maxLevel": 31,
+            "typeID": "pokemon",
+            "condition": {
+                "times": [
+                    "DAY"
+                ],
+				"weathers": [
+                    "CLEAR"
+                ],
+                "stringBiomes": [
+                    "ice_flats"
+                ]
+            },
+            "rarity": 100.0
+        }
+    ]
+}

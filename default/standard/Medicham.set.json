@@ -1,0 +1,26 @@
+{
+	"id": "Medicham",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Medicham"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 38,
+			"maxLevel": 45,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"mutated_extreme_hills_with_trees",
+					"mutated_taiga"
+				]
+			},
+			"rarity": 15.0
+		}
+	]
+}

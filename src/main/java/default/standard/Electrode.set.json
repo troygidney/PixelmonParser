@@ -1,0 +1,25 @@
+{
+	"id": "Electrode",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Electrode"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"plains"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

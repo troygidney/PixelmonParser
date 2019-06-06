@@ -1,0 +1,26 @@
+{
+	"id": "Nidoking",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Nidoking"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"MORNING"
+				],
+				"stringBiomes": [
+					"savannas"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

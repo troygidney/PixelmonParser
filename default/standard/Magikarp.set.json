@@ -1,0 +1,31 @@
+{
+	"id": "Magikarp",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Magikarp"
+			},
+			"stringLocationTypes": [
+				"Water",
+				"Underground Water"
+			],
+			"minLevel": 5,
+			"maxLevel": 20,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"oceanic",
+					"beaches",
+					"swamps",
+					"river",
+					"jungles",
+					"all forests",
+					"mountainous",
+					"freezing",
+					"savannas"
+				]
+			},
+			"rarity": 200.0
+		}
+	]
+}

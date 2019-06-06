@@ -1,0 +1,31 @@
+{
+	"id": "Trumbeak",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Trumbeak"
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"minLevel": 14,
+			"maxLevel": 27,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:sitrus_berry",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"jungles"
+				]
+			},
+			"rarity": 75.0
+		}
+	]
+}

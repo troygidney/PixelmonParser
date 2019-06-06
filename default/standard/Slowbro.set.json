@@ -1,0 +1,34 @@
+{
+	"id": "Slowbro",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Slowbro"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Sweet Scent"
+			],
+			"minLevel": 37,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:kings_rock",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"AFTERNOON",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"river",
+					"beaches"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

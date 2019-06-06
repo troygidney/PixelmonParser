@@ -1,0 +1,38 @@
+{
+	"id": "Butterfree",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Butterfree"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top",
+				"Headbutt",
+				"Sweet Scent"
+			],
+			"minLevel": 10,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:silver_powder",
+                    "percentChance": 5
+                } 
+            ],
+			"condition": {
+				"times": [
+					"DAWN",
+					"MORNING"
+				],
+				"stringBiomes": [
+					"forests",
+					"birches",
+					"flowery",
+					"jungles"
+				]
+			},
+			"rarity": 10.0
+		}
+	]
+}

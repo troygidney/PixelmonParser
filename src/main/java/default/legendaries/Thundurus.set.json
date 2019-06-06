@@ -1,0 +1,31 @@
+{
+	"id": "Thundurus",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Thundurus",
+				"level": 70
+			},
+			"stringLocationTypes": [
+			    "Land"
+			],
+			"tags": [
+				"legendary"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+                "times": [
+                    "MORNING"
+                ],
+				"weathers": [
+                    "STORM"
+                ],
+                "stringBiomes": [
+					"plains"
+				]
+            },
+			"rarity": 7.0
+		}
+	]
+}

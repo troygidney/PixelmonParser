@@ -1,0 +1,29 @@
+{
+	"id": "Krabby",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Krabby"
+			},
+			"stringLocationTypes": [
+				"Seafloor",
+				"Land",
+				"Rock Smash"
+			],
+			"minLevel": 15,
+			"maxLevel": 28,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"MORNING",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"ocean",
+					"beaches"
+				]
+			},
+			"rarity": 150.0
+		}
+	]
+}

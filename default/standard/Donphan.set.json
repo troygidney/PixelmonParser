@@ -1,0 +1,26 @@
+{
+	"id": "Donphan",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Donphan"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"mountainous"
+				],
+				"maxY": 120
+			},
+			"rarity": 15.0
+		}
+	]
+}

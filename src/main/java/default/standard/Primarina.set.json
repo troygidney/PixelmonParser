@@ -1,0 +1,26 @@
+{
+	"id": "Primarina",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Primarina"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 34,
+			"maxLevel": 55,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"MORNING"
+				],
+				"stringBiomes": [
+					"minecraft:beaches",
+					"white_beach"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

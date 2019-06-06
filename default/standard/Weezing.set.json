@@ -1,0 +1,31 @@
+{
+	"id": "Weezing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Weezing"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 35,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:smoke_ball",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"swamps"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

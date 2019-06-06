@@ -1,0 +1,26 @@
+{
+	"id": "Steenee",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Steenee"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 18,
+			"maxLevel": 34,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"birches",
+					"flowery"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

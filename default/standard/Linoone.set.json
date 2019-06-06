@@ -1,0 +1,36 @@
+{
+	"id": "Linoone",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Linoone"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 21,
+			"maxLevel": 31,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:max_revive",
+                    "percentChance": 5
+                },
+				{
+					"itemID": "pixelmon:potion",
+					"percentChance": 50
+				}
+            ],
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"minecraft:plains",
+					"ice_flats"
+				]
+			},
+			"rarity": 50.0
+		}
+	]
+}

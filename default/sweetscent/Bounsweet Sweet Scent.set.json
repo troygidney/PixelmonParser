@@ -1,0 +1,27 @@
+{
+    "id": "Bounsweet Sweet Scent",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Bounsweet"
+            },
+            "stringLocationTypes": [
+                "Sweet Scent"
+            ],
+            "minLevel": 5,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"forests",
+					"flowery",
+					"birches"
+				]
+			},
+            "rarity": 150.0
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "Blissey",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Blissey"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 60,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:lucky_egg",
+                    "percentChance": 100
+                }
+            ],
+			"condition": {
+				"times": [
+					"MORNING"
+				],
+				"stringBiomes": [
+					"savannas"
+				]
+			},
+			"rarity": 1.0
+		}
+	]
+}

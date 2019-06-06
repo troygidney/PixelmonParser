@@ -1,0 +1,60 @@
+{
+	"id": "Sableye",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Sableye"
+			},
+			"stringLocationTypes": [
+				"Underground"
+			],
+			"minLevel": 10,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:wide_lens",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"maxY": 60
+			},
+			"rarityMultipliers": [
+                {
+                    "multiplier": 2,
+                    "condition": {
+                        "neededNearbyBlocks": [
+                            "minecraft:oak_planks"
+                        ]
+                    }
+                }
+            ],
+			"rarity": 45.0
+		},
+		{
+			"spec": {
+				"name": "Sableye"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 10,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:wide_lens",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"nether",
+					"ultra_deep_sea"
+				]
+			},
+			"rarity": 45.0
+		}
+	]
+}

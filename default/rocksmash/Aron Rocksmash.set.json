@@ -1,0 +1,22 @@
+{
+    "id": "Aron Rocksmash",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Aron"
+            },
+            "stringLocationTypes": [
+                "Rock Smash"
+            ],
+            "minLevel": 10,
+            "maxLevel": 25,
+            "typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"mesas"
+				]
+			},
+            "rarity": 100.0
+        }
+    ]
+}

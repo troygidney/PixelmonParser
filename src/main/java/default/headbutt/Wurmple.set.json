@@ -1,0 +1,61 @@
+{
+    "id": "Wurmple",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Wurmple",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 2,
+            "maxLevel": 7,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes" : [
+                    "all forests"
+                ],
+				"variant" : [
+                    "oak",
+					"birch",
+					"spruce"
+                ]
+			},
+            "rarity": 120.0
+        },
+		{
+            "spec": {
+                "name": "Wurmple"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 2,
+            "maxLevel": 7,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes" : [
+                    "all forests"
+                ],
+				"variant" : [
+                    "oak",
+					"birch",
+					"spruce"
+                ]
+			},
+            "rarity": 120.0
+        }
+    ]
+}

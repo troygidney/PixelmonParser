@@ -1,0 +1,26 @@
+{
+	"id": "Ursaring",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Ursaring"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 60,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"hills"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

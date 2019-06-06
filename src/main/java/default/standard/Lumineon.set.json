@@ -1,0 +1,22 @@
+{
+	"id": "Lumineon",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Lumineon"
+			},
+			"stringLocationTypes": [
+				"Seafloor"
+			],
+			"minLevel": 32,
+			"maxLevel": 43,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

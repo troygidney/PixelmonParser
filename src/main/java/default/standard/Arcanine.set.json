@@ -1,0 +1,28 @@
+{
+	"id": "Arcanine",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Arcanine"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"AFTERNOON"
+				],
+				"weathers": [
+					"CLEAR"
+				],
+				"stringBiomes": [
+					"savannas"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

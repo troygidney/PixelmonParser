@@ -1,0 +1,27 @@
+{
+	"id": "Swirlix Grass",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Swirlix"
+			},
+			"stringLocationTypes": [
+				"Grass"
+			],
+			"minLevel": 22,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DUSK",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"birches",
+					"flowery"
+				]
+			},
+			"rarity": 75.0
+		}
+	]
+}

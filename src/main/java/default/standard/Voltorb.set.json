@@ -1,0 +1,25 @@
+{
+	"id": "Voltorb",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Voltorb"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 10,
+			"maxLevel": 30,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"plains"
+				]
+			},
+			"rarity": 75.0
+		}
+	]
+}

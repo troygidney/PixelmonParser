@@ -1,0 +1,27 @@
+{
+	"id": "Greninja",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Greninja",
+				"form": 0
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 36,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"swamps"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

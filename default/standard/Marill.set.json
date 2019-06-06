@@ -1,0 +1,32 @@
+{
+	"id": "Marill",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Marill"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 17,
+			"typeID": "pokemon",
+			"condition": {
+				"baseBlocks": [
+					"minecraft:sand"
+				],
+				"neededNearbyBlocks": [
+					"water"
+				],
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"beaches",
+					"river"
+				]
+			},
+			"rarity": 100.0
+		}
+	]
+}

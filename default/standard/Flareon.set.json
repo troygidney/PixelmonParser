@@ -1,0 +1,25 @@
+{
+	"id": "Flareon",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Flareon"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 35,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"AFTERNOON"
+				],
+				"stringBiomes": [
+					"mesas"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

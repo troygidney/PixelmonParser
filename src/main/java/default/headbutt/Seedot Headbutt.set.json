@@ -1,0 +1,30 @@
+{
+    "id": "Seedot Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Seedot"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 12,
+            "maxLevel": 23,
+            "typeID": "pokemon",
+            "condition": {
+                "variant" : [
+                    "oak",
+					"sacred_oak",
+					"pine",
+					"redwood",
+					"spruce"
+                ],
+				"stringBiomes" : [
+                    "taigas",
+					"redwoods"
+                ]
+            },
+            "rarity": 100.0
+        }
+    ]
+}

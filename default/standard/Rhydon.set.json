@@ -1,0 +1,26 @@
+{
+	"id": "Rhydon",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Rhydon"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 42,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"mesa",
+					"savannas"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

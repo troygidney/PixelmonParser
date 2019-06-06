@@ -1,0 +1,57 @@
+{
+    "id": "Starly Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Starly",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 5,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"mountainous"
+				],
+                "variant" : [
+					"spruce"
+                ]
+			},
+            "rarity": 150.0
+        },
+		{
+            "spec": {
+                "name": "Starly"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 5,
+            "maxLevel": 15,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"mountainous"
+				],
+                "variant" : [
+					"spruce"
+                ]
+			},
+            "rarity": 150.0
+        }
+    ]
+}

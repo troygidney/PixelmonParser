@@ -1,0 +1,82 @@
+{
+	"id": "Dugtrio",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Dugtrio",
+				"form": 0
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 26,
+			"maxLevel": 39,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:soft_sand",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"arid",
+					"mesas"
+				],
+				"maxY": 70
+			},
+			"rarity": 50.0
+		},
+		{
+			"spec": {
+				"name": "Dugtrio",
+				"form": 1
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 26,
+			"maxLevel": 39,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:soft_sand",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"arid",
+					"mesas"
+				],
+				"maxY": 70
+			},
+			"rarity": 5.0
+		},
+		{
+			"spec": {
+				"name": "Dugtrio",
+				"form": 0
+			},
+			"stringLocationTypes": [
+				"Underground"
+			],
+			"minLevel": 26,
+			"maxLevel": 39,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:soft_sand",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"maxY": 50
+			},
+			"rarity": 50.0
+		}
+	]
+}

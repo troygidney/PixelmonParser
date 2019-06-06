@@ -1,0 +1,30 @@
+{
+	"id": "Golisopod",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Golisopod"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 55,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"stone_beach",
+					"gravel_beach",
+					"minecraft:beaches",
+					"white_beach",
+					"rw_bombona_beach"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "Nidoqueen",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Nidoqueen"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"AFTERNOON",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"savannas"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+    "id": "Beedrill Sweet Scent",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Beedrill"
+            },
+            "stringLocationTypes": [
+                "Sweet Scent"
+            ],
+            "minLevel": 13,
+            "maxLevel": 23,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"forests",
+					"flowery"
+				]
+			},
+            "rarity": 80.0
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "Corphish Rocksmash",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Corphish"
+            },
+            "stringLocationTypes": [
+                "Rock Smash"
+            ],
+            "minLevel": 5,
+            "maxLevel": 20,
+            "typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"river"
+				]
+			},
+            "rarity": 150.0
+        }
+    ]
+}

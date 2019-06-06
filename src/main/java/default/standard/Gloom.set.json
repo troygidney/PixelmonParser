@@ -1,0 +1,36 @@
+{
+	"id": "Gloom",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Gloom"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 21,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:absorb_bulb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAWN",
+					"NIGHT",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"swamps",
+					"jungles",
+					"roofed_forest",
+					"mutated_roofed_forest"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

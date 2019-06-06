@@ -1,0 +1,27 @@
+{
+    "id": "Victreebel",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Victreebel"
+            },
+            "stringLocationTypes": [
+                "Land"
+            ],
+            "minLevel": 45,
+            "maxLevel": 55,
+            "typeID": "pokemon",
+            "condition": {
+                "times": [
+                    "DAY",
+					"DUSK"
+                ],
+                "stringBiomes": [
+                    "forests",
+                    "jungles"
+                ]
+            },
+            "rarity": 5.0
+        }
+    ]
+}

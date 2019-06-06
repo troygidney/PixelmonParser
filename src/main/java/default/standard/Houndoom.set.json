@@ -1,0 +1,43 @@
+{
+	"id": "Houndoom",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Houndoom"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 24,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"arid",
+					"mesas"
+				]
+			},
+			"rarity": 25.0
+		},
+		{
+			"spec": {
+				"name": "Houndoom"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 24,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"nether"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"id": "Salazzle",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Salazzle"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 33,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:smoke_ball",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"weathers": [
+					"CLEAR"
+				],
+				"stringBiomes": [
+					"mutated_swampland",
+					"evil",
+					"mutated_mesa",
+					"mesa_rock",
+					"mutated_mesa_clear_rock",
+					"mutated_mesa_rock"
+				]
+			},
+			"rarity": 5.0
+		},
+		{
+			"spec": {
+				"name": "Salazzle"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 33,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:smoke_ball",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"nether"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

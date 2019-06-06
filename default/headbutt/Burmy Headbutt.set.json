@@ -1,0 +1,59 @@
+{
+	"id": "Burmy Headbutt",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Burmy",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+			},
+			"stringLocationTypes": [
+				"Headbutt"
+			],
+			"minLevel": 5,
+			"maxLevel": 20,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"variant": [
+					"oak",
+					"dark_oak"
+				],
+				"stringBiomes": [
+					"forests"
+				]
+			},
+			"rarity": 30.0
+		},
+		{
+			"spec": {
+				"name": "Burmy"
+			},
+			"stringLocationTypes": [
+				"Headbutt"
+			],
+			"minLevel": 5,
+			"maxLevel": 20,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"variant": [
+					"oak",
+					"dark_oak"
+				],
+				"stringBiomes": [
+					"forests"
+				]
+			},
+			"rarity": 30.0
+		}
+	]
+}

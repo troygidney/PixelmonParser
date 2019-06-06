@@ -1,0 +1,121 @@
+{
+	"id": "Carvanha Line Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Carvanha"
+			},
+			"stringLocationTypes": [
+				"Old Rod"
+			],
+			"minLevel": 3,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:deep_sea_tooth",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"oceanic",
+					"jungles"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"freezing"
+				]
+			},
+			"rarity": 60
+		},
+		{
+			"spec": {
+				"name": "Carvanha"
+			},
+			"stringLocationTypes": [
+				"Good Rod"
+			],
+			"minLevel": 10,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:deep_sea_tooth",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"oceanic",
+					"jungles"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"freezing"
+				]
+			},
+			"rarity": 80
+		},
+		{
+			"spec": {
+				"name": "Sharpedo"
+			},
+			"stringLocationTypes": [
+				"Good Rod"
+			],
+			"minLevel": 30,
+			"maxLevel": 43,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:deep_sea_tooth",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"oceanic",
+					"jungles"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"freezing"
+				]
+			},
+			"rarity": 20
+		},
+		{
+			"spec": {
+				"name": "Sharpedo"
+			},
+			"stringLocationTypes": [
+				"Super Rod"
+			],
+			"minLevel": 35,
+			"maxLevel": 47,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:deep_sea_tooth",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"oceanic",
+					"jungles"
+				]
+			},
+			"anticondition": {
+				"stringBiomes": [
+					"freezing"
+				]
+			},
+			"rarity": 40
+		}
+	]
+}

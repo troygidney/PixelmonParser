@@ -1,0 +1,30 @@
+{
+	"id": "Avalugg",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Avalugg"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 38,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"frozen_ocean",
+					"frozen_river",
+					"ice_flats",
+					"freezing_mountains",
+					"biomesoplenty:glacier",
+					"traverse:glacier"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

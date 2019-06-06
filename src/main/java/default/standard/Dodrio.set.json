@@ -1,0 +1,32 @@
+{
+	"id": "Dodrio",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Dodrio"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 31,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:sharp_beak",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAY",
+					"DAWN"
+				],
+				"stringBiomes": [
+					"savannas"
+				]
+			},
+			"rarity": 15.0
+		}
+	]
+}

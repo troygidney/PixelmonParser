@@ -1,0 +1,27 @@
+{
+	"id": "Pansear",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Pansear"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top",
+				"Headbutt"
+			],
+			"minLevel": 11,
+			"maxLevel": 23,
+			"typeID": "pokemon",
+			"condition": {
+				"weathers": [
+					"CLEAR"
+				],
+				"stringBiomes": [
+					"jungles"
+				]
+			},
+			"rarity": 45.0
+		}
+	]
+}

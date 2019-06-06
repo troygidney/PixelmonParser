@@ -1,0 +1,97 @@
+{
+	"id": "Tentacool Line Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Tentacool"
+			},
+			"stringLocationTypes": [
+				"Old Rod"
+			],
+			"minLevel": 5,
+			"maxLevel": 24,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:poison_barb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 100
+		},
+		{
+			"spec": {
+				"name": "Tentacool"
+			},
+			"stringLocationTypes": [
+				"Good Rod"
+			],
+			"minLevel": 5,
+			"maxLevel": 24,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:poison_barb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 60
+		},
+		{
+			"spec": {
+				"name": "Tentacruel"
+			},
+			"stringLocationTypes": [
+				"Good Rod"
+			],
+			"minLevel": 30,
+			"maxLevel": 42,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:poison_barb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 10
+		},
+		{
+			"spec": {
+				"name": "Tentacruel"
+			},
+			"stringLocationTypes": [
+				"Super Rod"
+			],
+			"minLevel": 30,
+			"maxLevel": 42,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:poison_barb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 40
+		}
+	]
+}

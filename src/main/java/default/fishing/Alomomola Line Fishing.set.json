@@ -1,0 +1,22 @@
+{
+	"id": "Alomomola Line Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Alomomola"
+			},
+			"stringLocationTypes": [
+				"Super Rod"
+			],
+			"minLevel": 36,
+			"maxLevel": 49,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 20
+		}
+	]
+}

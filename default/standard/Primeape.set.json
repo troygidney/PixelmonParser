@@ -1,0 +1,28 @@
+{
+	"id": "Primeape",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Primeape"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top",
+				"Headbutt"
+			],
+			"minLevel": 28,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"jungles"
+				]
+			},
+			"rarity": 50.0
+		}
+	]
+}

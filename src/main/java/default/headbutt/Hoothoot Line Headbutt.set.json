@@ -1,0 +1,100 @@
+{
+    "id": "Hoothoot Line Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Hoothoot",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]					
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 5,
+            "maxLevel": 19,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes" : [
+                    "all forests",
+					"freezing forests"
+                ]
+            },
+            "rarity": 100.0
+        },
+		{
+            "spec": {
+                "name": "Hoothoot"				
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 5,
+            "maxLevel": 19,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes" : [
+                    "all forests"
+                ]
+            },
+            "rarity": 100.0
+        },
+		{
+            "spec": {
+                "name": "Noctowl",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]					
+            },
+			"stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 26,
+            "maxLevel": 34,
+            "typeID": "pokemon",
+            "condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes" : [
+                    "all forests",
+					"freezing forests"
+                ]
+            },
+            "rarity": 5.0
+        },
+		{
+            "spec": {
+                "name": "Noctowl"				
+            },
+			"stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 26,
+            "maxLevel": 34,
+            "typeID": "pokemon",
+            "condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes" : [
+                    "all forests",
+					"freezing forests"
+                ]
+            },
+            "rarity": 5.0
+        }
+    ]
+}

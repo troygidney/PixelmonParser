@@ -1,0 +1,31 @@
+{
+	"id": "Whimsicott",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Whimsicott"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:absorb_bulb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+			"rarity": 15.0
+		}
+	]
+}

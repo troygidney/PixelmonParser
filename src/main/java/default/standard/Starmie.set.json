@@ -1,0 +1,37 @@
+{
+	"id": "Starmie",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Starmie"
+			},
+			"stringLocationTypes": [
+				"Seafloor"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:star_piece",
+                    "percentChance": 5
+                },
+                {
+                    "itemID": "pixelmon:stardust",
+                    "percentChance": 50
+                }
+            ],
+			"condition": {
+				"times": [
+					"DUSK",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"ocean",
+					"coral_reef"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

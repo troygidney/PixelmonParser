@@ -1,0 +1,51 @@
+{
+    "id": "Crabrawler Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Crabrawler"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 15,
+            "maxLevel": 30,
+            "typeID": "pokemon",
+            "condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes": [
+					"beaches"
+				]
+            },
+            "rarity": 25.0
+        },
+		{
+            "spec": {
+                "name": "Crabrawler",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]	
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 15,
+            "maxLevel": 30,
+            "typeID": "pokemon",
+            "condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes": [
+					"beaches"
+				]
+            },
+            "rarity": 25.0
+        }
+    ]
+}

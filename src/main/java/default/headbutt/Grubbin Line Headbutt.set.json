@@ -1,0 +1,125 @@
+{
+    "id": "Grubbin Line Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Grubbin",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 5,
+            "maxLevel": 19,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes" : [
+                    "taigas",
+					"redwoods",
+					"jungles"
+                ],
+				"variant" : [
+                    "spruce",
+					"redwood",
+					"jungle"
+                ]
+            },
+            "rarity": 100.0
+        },
+		{
+            "spec": {
+                "name": "Grubbin"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 5,
+            "maxLevel": 19,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+					"NIGHT"
+                ],
+				"stringBiomes" : [
+                    "taigas",
+					"redwoods",
+					"jungles"
+                ],
+				"variant" : [
+                    "spruce",
+					"redwood",
+					"jungle"
+                ]
+            },
+            "rarity": 100.0
+        },
+		{
+            "spec": {
+                "name": "Charjabug",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 20,
+            "maxLevel": 35,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes" : [
+                    "taigas",
+					"redwoods",
+					"jungles"
+                ],
+				"variant" : [
+                    "spruce",
+					"redwood",
+					"jungle"
+                ]
+            },
+            "rarity": 50.0
+        },
+		{
+            "spec": {
+                "name": "Charjabug"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 20,
+            "maxLevel": 35,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+					"NIGHT"
+                ],
+				"stringBiomes" : [
+                    "taigas",
+					"redwoods",
+					"jungles"
+                ],
+				"variant" : [
+                    "spruce",
+					"redwood",
+					"jungle"
+                ]
+            },
+            "rarity": 50.0
+        }
+    ]
+}

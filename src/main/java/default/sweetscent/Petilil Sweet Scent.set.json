@@ -1,0 +1,25 @@
+{
+    "id": "Petilil Sweet Scent",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Petilil"
+            },
+            "stringLocationTypes": [
+                "Sweet Scent"
+            ],
+            "minLevel": 10,
+            "maxLevel": 25,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+            "rarity": 70.0
+        }
+    ]
+}

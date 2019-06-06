@@ -1,0 +1,32 @@
+{
+	"id": "Tentacruel",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Tentacruel"
+			},
+			"stringLocationTypes": [
+				"Water"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:poison_barb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"oceanic"
+				],
+				"minY": 50
+			},
+			"rarity": 25.0
+		}
+	]
+}

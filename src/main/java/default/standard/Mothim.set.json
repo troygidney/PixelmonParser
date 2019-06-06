@@ -1,0 +1,33 @@
+{
+	"id": "Mothim",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Mothim"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Sweet Scent"
+			],
+			"minLevel": 20,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:silver_powder",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"AFTERNOON",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"taigas"
+				]
+			},
+			"rarity": 15.0
+		}
+	]
+}

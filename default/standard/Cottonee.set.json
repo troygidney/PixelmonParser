@@ -1,0 +1,31 @@
+{
+	"id": "Cottonee",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Cottonee"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:absorb_bulb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+			"rarity": 100.0
+		}
+	]
+}

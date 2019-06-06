@@ -1,0 +1,23 @@
+{
+	"id": "Galvantula",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Galvantula"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top"
+			],
+			"minLevel": 36,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"jungles"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

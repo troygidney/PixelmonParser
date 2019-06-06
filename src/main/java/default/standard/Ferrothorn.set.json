@@ -1,0 +1,32 @@
+{
+	"id": "Ferrothorn",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Ferrothorn"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 41,
+			"maxLevel": 53,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:sticky_barb",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"redwoods",
+					"freezing forests"
+				]
+			},
+			"rarity": 15.0
+		}
+	]
+}

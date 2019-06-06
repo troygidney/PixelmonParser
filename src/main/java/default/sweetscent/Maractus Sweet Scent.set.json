@@ -1,0 +1,32 @@
+{
+	"id": "Maractus Sweet Scent",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Maractus"
+			},
+			"stringLocationTypes": [
+				"Sweet Scent"
+			],
+			"minLevel": 10,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:miracle_seed",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"arid",
+					"mesa"
+				]
+			},
+			"rarity": 70.0
+		}
+	]
+}

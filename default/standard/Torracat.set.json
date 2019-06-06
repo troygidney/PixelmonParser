@@ -1,0 +1,27 @@
+{
+	"id": "Torracat",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Torracat"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Tree Top"
+			],
+			"minLevel": 17,
+			"maxLevel": 33,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"jungle_hills",
+					"mutated_jungle"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

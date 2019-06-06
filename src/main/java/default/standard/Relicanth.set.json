@@ -1,0 +1,33 @@
+{
+	"id": "Relicanth",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Relicanth"
+			},
+			"stringLocationTypes": [
+				"Water",
+				"Underground Water"
+			],
+			"minLevel": 30,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:deep_sea_scale",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"deep_ocean"
+				],
+				"maxY": 32
+			},
+			"rarity": 15.0
+		}
+	]
+}

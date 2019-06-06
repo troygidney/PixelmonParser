@@ -1,0 +1,59 @@
+{
+	"id": "Combee Headbutt",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Combee",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+			},
+			"stringLocationTypes": [
+				"Headbutt"
+			],
+			"minLevel": 6,
+			"maxLevel": 16,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"flowery"
+				],
+				"variant": [
+					"oak",
+					"birch"
+				]
+			},
+			"rarity": 100.0
+		},
+		{
+			"spec": {
+				"name": "Combee"
+			},
+			"stringLocationTypes": [
+				"Headbutt"
+			],
+			"minLevel": 6,
+			"maxLevel": 16,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"flowery"
+				],
+				"variant": [
+					"oak",
+					"birch"
+				]
+			},
+			"rarity": 100.0
+		}
+	]
+}

@@ -1,0 +1,101 @@
+{
+    "id": "Scatterbug Line Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Scatterbug",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 1,
+            "maxLevel": 8,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes" : [
+                    "forests",
+					"birches"
+                ]
+            },
+            "rarity": 100.0
+        },
+		{
+            "spec": {
+                "name": "Scatterbug"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 1,
+            "maxLevel": 8,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes" : [
+                    "forests",
+					"birches"
+                ]
+            },
+            "rarity": 100.0
+        },
+		{
+            "spec": {
+                "name": "Spewpa",
+				"extraSpecs": [
+				    {
+					    "key": "status",
+						"value": "Sleep"
+					}
+                ]
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 9,
+            "maxLevel": 12,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "NIGHT"
+                ],
+				"stringBiomes" : [
+                    "forests",
+					"birches"
+                ]
+            },
+            "rarity": 50.0
+        },
+		{
+            "spec": {
+                "name": "Spewpa"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 9,
+            "maxLevel": 12,
+            "typeID": "pokemon",
+			"condition": {
+                "times" : [
+                    "DAY"
+                ],
+				"stringBiomes" : [
+                    "forests",
+					"birches"
+                ]
+            },
+            "rarity": 50.0
+        }
+    ]
+}

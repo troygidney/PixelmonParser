@@ -1,0 +1,29 @@
+{
+	"id": "Landorus",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Landorus",
+				"level": 70
+			},
+			"stringLocationTypes": [
+			    "Land"
+			],
+			"tags": [
+				"legendary"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"mutated_mesa_rock"
+				]
+			},
+			"rarity": 6.0
+		}
+	]
+}

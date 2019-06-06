@@ -1,0 +1,1 @@
+{"spawnInfos":[{"stringLocationTypes":["Land"],"condition":{"times":["DAY"],"weathers":["CLEAR","TEST"],"stringBiomes":["desert_hills"]},"interval":"legendary","typeID":"pokemon","spec":{"level":70,"name":"Groudon"},"tags":["legendary"],"rarity":6.0}],"id":"Groudon"}

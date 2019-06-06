@@ -1,0 +1,37 @@
+{
+	"id": "Decidueye",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Decidueye"
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"minLevel": 34,
+			"maxLevel": 55,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DUSK",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"taigas",
+					"redwoods"
+				]
+			},
+			"rarityMultipliers": [
+                {
+                    "multiplier": 1.5,
+                    "condition": {
+                        "times": [
+                            "MIDNIGHT"
+                        ]
+                    }
+                }
+            ],
+			"rarity": 5.0
+		}
+	]
+}

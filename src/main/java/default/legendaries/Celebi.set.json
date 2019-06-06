@@ -1,0 +1,36 @@
+{
+	"id": "Celebi",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Celebi",
+				"level": 70
+			},
+			"stringLocationTypes": [
+			    "Land"
+			],
+			"tags": [
+				"legendary",
+				"mythical"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:lum_berry",
+                    "percentChance": 100
+                }
+            ],
+			"condition": {
+				"times": [
+					"MORNING"
+				],
+				"stringBiomes": [
+					"flowery",
+					"rw_emperor_ridge"
+				]
+			},
+			"rarity": 1.0
+		}
+	]
+}

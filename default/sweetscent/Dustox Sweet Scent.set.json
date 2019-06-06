@@ -1,0 +1,27 @@
+{
+    "id": "Dustox Sweet Scent",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Dustox"
+            },
+            "stringLocationTypes": [
+                "Sweet Scent"
+            ],
+            "minLevel": 13,
+            "maxLevel": 23,
+            "typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"forests",
+					"taigas",
+					"redwoods"
+				]
+			},
+            "rarity": 90.0
+        }
+    ]
+}

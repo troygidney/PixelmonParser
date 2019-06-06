@@ -1,0 +1,28 @@
+{
+	"id": "Hoothoot",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Hoothoot"
+			},
+			"stringLocationTypes": [
+				"Tree Top",
+				"Headbutt",
+				"Sweet Scent"
+			],
+			"minLevel": 5,
+			"maxLevel": 19,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"all forests",
+					"freezing forests"
+				]
+			},
+			"rarity": 200.0
+		}
+	]
+}

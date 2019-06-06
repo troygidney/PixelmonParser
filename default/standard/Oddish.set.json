@@ -1,0 +1,37 @@
+{
+	"id": "Oddish",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Oddish"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Sweet Scent"
+			],
+			"minLevel": 5,
+			"maxLevel": 21,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:absorb_bulb",
+                    "percentChance": 5
+                } 
+            ],
+			"condition": {
+				"times": [
+					"DAWN",
+					"NIGHT",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"swamps",
+					"jungles",
+					"roofed_forest",
+					"mutated_roofed_forest"
+				]
+			},
+			"rarity": 100.0
+		}
+	]
+}

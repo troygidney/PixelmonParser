@@ -1,0 +1,54 @@
+{
+	"id": "Magmar",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Magmar"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:magmarizer",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"AFTERNOON"
+				],
+				"stringBiomes": [
+					"arid"
+				]
+			},
+			"rarity": 45.0
+		},
+		{
+			"spec": {
+				"name": "Magmar"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:magmarizer",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"nether"
+				]
+			},
+			"rarity": 45.0
+		}
+	]
+}

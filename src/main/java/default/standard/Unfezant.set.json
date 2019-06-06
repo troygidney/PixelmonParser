@@ -1,0 +1,29 @@
+{
+	"id": "Unfezant",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Unfezant"
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"minLevel": 33,
+			"maxLevel": 47,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"weathers": [
+					"CLEAR"
+				],
+				"stringBiomes": [
+					"plains",
+					"ice_flats"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

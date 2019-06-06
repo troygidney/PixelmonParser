@@ -1,0 +1,41 @@
+{
+	"id": "Banette",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Banette"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 35,
+			"maxLevel": 45,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:spell_tag",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"MIDNIGHT"
+				],
+				"stringBiomes": [
+					"plains"
+				]
+			},
+			"rarityMultipliers": [
+                {
+                    "multiplier": 2,
+                    "condition": {
+                        "neededNearbyBlocks": [
+                            "minecraft:grass_path"
+                        ]
+                    }
+                }
+            ],
+			"rarity": 15.0
+		}
+	]
+}

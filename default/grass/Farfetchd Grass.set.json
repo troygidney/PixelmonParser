@@ -1,0 +1,31 @@
+{
+	"id": "Farfetchd Grass",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Farfetchd"
+			},
+			"stringLocationTypes": [
+				"Grass"
+			],
+			"minLevel": 24,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:stick",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"plains"
+				]
+			},
+			"rarity": 50.0
+		}
+	]
+}

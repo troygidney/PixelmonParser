@@ -1,0 +1,28 @@
+{
+	"id": "Blacephalon",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Blacephalon"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"tags": [
+				"ultrabeast"
+			],
+			"minLevel": 60,
+			"maxLevel": 60,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"flowery"
+				],
+				"dimensions": [
+					"72"
+				]
+			},
+			"rarity": 6.0
+		}
+	]
+}

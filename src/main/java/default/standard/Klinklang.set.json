@@ -1,0 +1,52 @@
+{
+	"id": "Klinklang",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Klinklang"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 49,
+			"maxLevel": 60,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"MORNING"
+				],
+				"stringBiomes": [
+					"ice_mountains",
+					"mutated_extreme_hills"
+				]
+			},
+			"rarityMultipliers": [
+				{
+					"multiplier": 2,
+					"condition": {
+						"weathers": [
+							"STORM"
+						]
+					}
+				}
+			],
+			"rarity": 5.0
+		},
+		{
+			"spec": {
+				"name": "Klinklang"
+			},
+			"stringLocationTypes": [
+				"Underground"
+			],
+			"minLevel": 49,
+			"maxLevel": 60,
+			"typeID": "pokemon",
+			"condition": {
+				"maxY": 30
+			},
+			"rarity": 1.0
+		}
+	]
+}

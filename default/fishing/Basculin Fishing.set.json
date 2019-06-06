@@ -1,0 +1,105 @@
+{
+	"id": "Basculin Fishing",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Basculin",
+				"form": 0
+			},
+			"stringLocationTypes": [
+				"Good Rod"
+			],
+			"minLevel": 22,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:deep_sea_tooth",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"river",
+					"jungles"
+				]
+			},
+			"rarity": 60.0
+		},
+		{
+			"spec": {
+				"name": "Basculin",
+				"form": 0
+			},
+			"stringLocationTypes": [
+				"Super Rod"
+			],
+			"minLevel": 22,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:deep_sea_tooth",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"river",
+					"jungles"
+				]
+			},
+			"rarity": 80.0
+		},
+		{
+			"spec": {
+				"name": "Basculin",
+				"form": 1
+			},
+			"stringLocationTypes": [
+				"Good Rod"
+			],
+			"minLevel": 22,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:deep_sea_scale",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"river",
+					"jungles"
+				]
+			},
+			"rarity": 60.0
+		},
+		{
+			"spec": {
+				"name": "Basculin",
+				"form": 1
+			},
+			"stringLocationTypes": [
+				"Super Rod"
+			],
+			"minLevel": 22,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:deep_sea_scale",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"stringBiomes": [
+					"river",
+					"jungles"
+				]
+			},
+			"rarity": 80.0
+		}
+	]
+}

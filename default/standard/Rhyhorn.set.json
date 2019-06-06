@@ -1,0 +1,26 @@
+{
+	"id": "Rhyhorn",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Rhyhorn"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 20,
+			"maxLevel": 34,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"mesa",
+					"savannas"
+				]
+			},
+			"rarity": 75.0
+		}
+	]
+}

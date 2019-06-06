@@ -1,0 +1,28 @@
+{
+    "id": "Shroomish Headbutt",
+    "spawnInfos": [
+        {
+            "spec": {
+                "name": "Shroomish"
+            },
+            "stringLocationTypes": [
+                "Headbutt"
+            ],
+            "minLevel": 5,
+            "maxLevel": 21,
+            "typeID": "pokemon",
+            "condition": {
+                "variant" : [
+                    "dark_oak",
+					"minecraft:brown_mushroom",
+					"minecraft:red_mushroom"
+                ],
+				"stringBiomes" : [
+                    "roofed_forest",
+					"mushroom_island"
+                ]
+            },
+            "rarity": 50.0
+        }
+    ]
+}

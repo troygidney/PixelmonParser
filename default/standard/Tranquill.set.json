@@ -1,0 +1,29 @@
+{
+	"id": "Tranquill",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Tranquill"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 22,
+			"maxLevel": 31,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"weathers": [
+					"CLEAR"
+				],
+				"stringBiomes": [
+					"plains",
+					"ice_flats"
+				]
+			},
+			"rarity": 75.0
+		}
+	]
+}

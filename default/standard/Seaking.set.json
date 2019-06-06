@@ -1,0 +1,34 @@
+{
+	"id": "Seaking",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Seaking"
+			},
+			"stringLocationTypes": [
+				"Water"
+			],
+			"minLevel": 33,
+			"maxLevel": 38,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:mystic_water",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"DAWN",
+					"DAY",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"river",
+					"all forests"
+				]
+			},
+			"rarity": 50.0
+		}
+	]
+}

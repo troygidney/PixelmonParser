@@ -1,0 +1,32 @@
+{
+	"id": "TapuFini",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "TapuFini",
+				"level": 60
+			},
+			"stringLocationTypes": [
+			    "Land"
+			],
+			"tags": [
+				"legendary"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"neededNearbyBlocks": [
+					"water"
+				],
+				"times": [
+					"DUSK"
+				],
+				"stringBiomes": [
+					"jungle",
+					"tropical_rainforest"
+				]
+			},
+			"rarity": 6.0
+		}
+	]
+}
