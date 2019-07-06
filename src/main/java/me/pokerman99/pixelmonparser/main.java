@@ -8,11 +8,9 @@ import org.json.simple.parser.ParseException;
 import java.io.*;
 
 public class main {
-
     //public static Gson gson = new GsonBuilder().setPrettyPrinting().serializeNulls().disableHtmlEscaping().create();
 
     public static void main(String[] args) throws IOException, ParseException {
-
         File folderDefault = new File("default");
         File[] listOfFiles = folderDefault.listFiles();
 
@@ -22,8 +20,7 @@ public class main {
                 File[] filesInner = file.listFiles();
                 for (File file1 : filesInner) {
                     //System.out.println("\t" + file1.getName() + " 2");
-                    if (file1.isDirectory())
-                    {//If the folders with the json have another folder in it.
+                    if (file1.isDirectory()) {//If the folders with the json have another folder in it.
                         File[] dirInner = file1.listFiles();
                         for (File file2 : dirInner) {
                             if (file2.isDirectory()) {
@@ -32,22 +29,14 @@ public class main {
                             }
                             openEditFile(file2);
 
-
                             //System.out.println(file2.getName());
                         }
-
+                    } else {
+                        openEditFile(file1);
                     }
-                    else openEditFile(file1);
                 }
-
             }
-
         }
-
-
-
-
-
 
 /*        Object obj = new JSONParser().parse(new FileReader("./default/legendaries/Groudon.set.json"));
         JSONObject jsonFile = (JSONObject) obj;
@@ -70,18 +59,9 @@ public class main {
             pw.flush();
             pw.close();
         }*/
-
-
-
-
-
-
-
     }
 
     public static void openEditFile(File file) throws IOException, ParseException {
-
-
         Object obj = new JSONParser().parse(new FileReader(file.getPath()));
         JSONObject jsonFile = (JSONObject) obj;
         System.out.println(obj.toString());
@@ -98,17 +78,14 @@ public class main {
 
             if (jsonWeather == null || jsonWeather.isEmpty()) continue;
 
-
-
             if (jsonWeather.contains("RAIN") && jsonWeather.size() < 2) {
-
                 System.out.println(file.getName());
                 System.out.println(jsonName.get("name"));
                 System.out.println(jsonWeather.toString());
                 System.out.println("\t\t" + true);
                 System.out.println("-------------\n");
+                jsonWeather.add("CLEAR");
                 jsonWeather.add("STORM");
-                jsonWeather.add("SUN");
                 PrintWriter pw = new PrintWriter(file.getPath());
                 pw.write(jsonFile.toJSONString());
                 pw.flush();
@@ -116,27 +93,18 @@ public class main {
             }
 
             if (jsonWeather.contains("STORM") && jsonWeather.size() < 2) {
-
                 System.out.println(file.getName());
                 System.out.println(jsonName.get("name"));
                 System.out.println(jsonWeather.toString());
                 System.out.println("\t\t" + true);
                 System.out.println("-------------\n");
                 jsonWeather.add("RAIN");
-                jsonWeather.add("SUN");
+                jsonWeather.add("CLEAR");
                 PrintWriter pw = new PrintWriter(file.getPath());
                 pw.write(jsonFile.toJSONString());
                 pw.flush();
                 pw.close();
             }
-
-
-
         }
-
-
-
-
     }
-
 }
